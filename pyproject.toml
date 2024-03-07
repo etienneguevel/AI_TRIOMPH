@@ -1,0 +1,12 @@
+[project]
+name="triomph"
+version="0.1.0"
+description="set of functions util for the AI_TRIOMPH project"
+readme="README.md"
+
+[build-system]
+requires=["hatchling"]
+build-backend=["hatchling.build"]
+
+[tool.hatch.build.targets.wheel]
+packages=["triomph"]
